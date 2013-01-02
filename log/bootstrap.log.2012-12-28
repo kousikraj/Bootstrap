@@ -1,0 +1,48 @@
+[2012-12-28 17:44:33,000][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):44 | Loading com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:44:33,003][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):60 | Loaded com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:44:33,003][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):70 | Loaded all services for NORMAL mode
+[2012-12-28 17:44:33,003][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):76 | Shutting down service com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:44:33,004][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):79 | Shutdown compelted for service com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:44:33,006][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):88 | Completed shutting down all services for NORMAL mode
+[2012-12-28 17:45:43,553][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):44 | Loading com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:45:43,559][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):60 | Loaded com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:45:43,559][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):70 | Loaded all services for NORMAL mode
+[2012-12-28 17:45:43,560][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):76 | Shutting down service com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:45:43,560][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):79 | Shutdown compelted for service com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:45:43,563][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):88 | Completed shutting down all services for NORMAL mode
+[2012-12-28 17:46:43,097][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):44 | Loading com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:46:43,117][INFO][com.kousikraj.bootstrap.services.TestService](init):9 | Test Service Initialized....
+[2012-12-28 17:46:43,117][INFO][com.kousikraj.bootstrap.services.TestService](start):15 | Test Service Started....
+[2012-12-28 17:46:43,118][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):60 | Loaded com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:46:43,120][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):70 | Loaded all services for NORMAL mode
+[2012-12-28 17:46:43,121][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):76 | Shutting down service com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:46:43,129][INFO][com.kousikraj.bootstrap.services.TestService](stop):21 | Test Service stopped....
+[2012-12-28 17:46:43,130][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):79 | Shutdown compelted for service com.kousikraj.bootstrap.services.TestService
+[2012-12-28 17:46:43,130][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):88 | Completed shutting down all services for NORMAL mode
+[2012-12-28 18:18:30,357][ERROR][com.kousikraj.bootstrap.lookups.ServiceLookup](getService):18 | java.lang.ClassNotFoundException: com.test.TEST
+[2012-12-28 18:19:27,411][ERROR][com.kousikraj.bootstrap.lookups.ServiceLookup](getService):18 | java.lang.ClassNotFoundException: com.test.Test
+[2012-12-28 18:21:15,949][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):44 | Loading com.test.TestService
+[2012-12-28 18:21:15,953][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2012-12-28 18:21:15,953][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2012-12-28 18:21:15,954][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):60 | Loaded com.test.TestService
+[2012-12-28 18:21:15,957][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):70 | Loaded all services for NORMAL mode
+[2012-12-28 18:21:15,957][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):76 | Shutting down service com.test.TestService
+[2012-12-28 18:21:15,957][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2012-12-28 18:21:15,958][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):79 | Shutdown compelted for service com.test.TestService
+[2012-12-28 18:21:15,958][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):88 | Completed shutting down all services for NORMAL mode
+[2012-12-28 18:24:46,969][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):44 | Loading com.test.TestService
+[2012-12-28 18:24:46,975][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2012-12-28 18:24:46,975][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2012-12-28 18:24:46,976][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):60 | Loaded com.test.TestService
+[2012-12-28 18:24:46,981][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):44 | Loading com.test.DummyService
+[2012-12-28 18:24:46,981][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2012-12-28 18:24:46,981][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2012-12-28 18:24:46,982][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):60 | Loaded com.test.DummyService
+[2012-12-28 18:24:46,982][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](nextState):70 | Loaded all services for NORMAL mode
+[2012-12-28 18:24:46,982][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):76 | Shutting down service com.test.DummyService
+[2012-12-28 18:24:46,983][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2012-12-28 18:24:46,983][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):79 | Shutdown compelted for service com.test.DummyService
+[2012-12-28 18:24:46,983][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):76 | Shutting down service com.test.TestService
+[2012-12-28 18:24:46,984][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2012-12-28 18:24:46,984][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):79 | Shutdown compelted for service com.test.TestService
+[2012-12-28 18:24:46,984][INFO][com.kousikraj.bootstrap.core.BootstrapLoader](shutDown):88 | Completed shutting down all services for NORMAL mode

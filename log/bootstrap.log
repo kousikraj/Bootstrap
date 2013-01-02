@@ -1,0 +1,327 @@
+[2013-01-02 12:31:58,123][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 12:31:58,160][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 12:31:58,161][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 12:31:58,164][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 12:31:58,164][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.TestService
+[2013-01-02 12:31:58,164][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 12:31:58,165][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 12:31:58,171][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.TestService
+[2013-01-02 12:31:58,171][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.DummyService
+[2013-01-02 12:31:58,172][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 12:31:58,172][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 12:31:58,172][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.DummyService
+[2013-01-02 12:31:58,172][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):107 | Loaded all services for NORMAL mode
+[2013-01-02 12:31:58,172][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.DummyService
+[2013-01-02 12:31:58,173][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 12:31:58,173][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 12:31:58,175][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.TestService
+[2013-01-02 12:31:58,175][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 12:31:58,175][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.TestService
+[2013-01-02 12:31:58,175][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):129 | Completed shutting down all services for NORMAL mode
+[2013-01-02 12:32:31,424][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 12:32:31,429][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 12:32:31,429][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 12:32:31,432][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 12:32:31,432][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.TestService
+[2013-01-02 12:32:31,433][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 12:32:31,433][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 12:32:31,434][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.TestService
+[2013-01-02 12:32:31,434][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.DummyService
+[2013-01-02 12:32:31,434][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 12:32:31,434][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 12:32:31,434][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.DummyService
+[2013-01-02 12:32:31,435][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):107 | Loaded all services for NORMAL mode
+[2013-01-02 12:32:31,435][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.DummyService
+[2013-01-02 12:32:31,435][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 12:32:31,435][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 12:32:31,437][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.TestService
+[2013-01-02 12:32:31,437][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 12:32:31,437][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.TestService
+[2013-01-02 12:32:31,438][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):129 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:00:23,924][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:00:23,927][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:00:23,927][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:00:23,929][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:00:23,930][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.TestService
+[2013-01-02 15:00:23,930][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 15:00:23,930][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 15:00:23,931][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.TestService
+[2013-01-02 15:00:23,931][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.DummyService
+[2013-01-02 15:00:23,931][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:00:23,932][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:00:23,932][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.DummyService
+[2013-01-02 15:00:23,932][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):107 | Loaded all services for NORMAL mode
+[2013-01-02 15:00:23,933][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.DummyService
+[2013-01-02 15:00:23,933][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:00:23,933][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:00:23,935][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.TestService
+[2013-01-02 15:00:23,936][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 15:00:23,936][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:00:23,936][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):129 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:00:43,102][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:00:43,106][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:00:43,106][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:00:43,109][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:00:43,109][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.TestService
+[2013-01-02 15:00:43,110][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 15:00:43,110][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 15:00:43,111][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.TestService
+[2013-01-02 15:00:43,111][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.DummyService
+[2013-01-02 15:00:43,111][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:00:43,112][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:00:43,112][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.DummyService
+[2013-01-02 15:00:43,112][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):107 | Loaded all services for NORMAL mode
+[2013-01-02 15:00:43,113][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.DummyService
+[2013-01-02 15:00:43,113][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:00:43,113][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:00:43,116][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.TestService
+[2013-01-02 15:00:43,116][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 15:00:43,116][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:00:43,116][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):129 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:01:06,416][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:01:06,421][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:01:06,421][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:01:06,424][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:01:06,424][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.TestService
+[2013-01-02 15:01:06,424][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 15:01:06,424][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 15:01:06,425][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.TestService
+[2013-01-02 15:01:06,425][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.DummyService
+[2013-01-02 15:01:06,426][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:01:06,426][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:01:06,426][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.DummyService
+[2013-01-02 15:01:06,426][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):107 | Loaded all services for NORMAL mode
+[2013-01-02 15:01:06,426][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.DummyService
+[2013-01-02 15:01:06,427][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:01:06,427][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:01:06,429][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.TestService
+[2013-01-02 15:01:06,429][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 15:01:06,429][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:01:06,429][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):129 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:01:18,628][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:01:18,633][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:01:18,633][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:01:18,636][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:01:18,636][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.TestService
+[2013-01-02 15:01:18,636][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 15:01:18,637][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 15:01:18,637][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.TestService
+[2013-01-02 15:01:18,638][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):83 | Loading com.test.DummyService
+[2013-01-02 15:01:18,638][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:01:18,638][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:01:18,639][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):97 | Loaded com.test.DummyService
+[2013-01-02 15:01:18,639][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):107 | Loaded all services for NORMAL mode
+[2013-01-02 15:01:18,639][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.DummyService
+[2013-01-02 15:01:18,639][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:01:18,640][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:01:18,642][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):117 | Shutting down service com.test.TestService
+[2013-01-02 15:01:18,642][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 15:01:18,643][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):120 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:01:18,643][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):129 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:02:40,330][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:02:40,334][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:02:40,335][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:02:40,337][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:02:40,337][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:02:40,337][INFO][com.test.TestService](init):10 | Initialized TestService from custom package..
+[2013-01-02 15:02:40,337][INFO][com.test.TestService](start):16 | Started TestService from custom package..
+[2013-01-02 15:02:40,338][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:02:40,338][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.DummyService
+[2013-01-02 15:02:40,339][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:02:40,339][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:02:40,339][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.DummyService
+[2013-01-02 15:02:40,339][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:02:40,340][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.DummyService
+[2013-01-02 15:02:40,340][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:02:40,340][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:02:40,342][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:02:40,343][INFO][com.test.TestService](stop):22 | Stopped TestService from custom package..
+[2013-01-02 15:02:40,343][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:02:40,343][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):131 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:08:36,158][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:08:36,162][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:08:36,162][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:08:36,164][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:08:36,164][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:08:36,164][INFO][com.test.TestService](init):12 | Initialized TestService from custom package..
+[2013-01-02 15:08:36,165][INFO][com.test.TestService](start):18 | Started TestService from custom package..
+[2013-01-02 15:08:36,165][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:08:36,165][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.DummyService
+[2013-01-02 15:08:36,166][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:08:36,166][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:08:36,166][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.DummyService
+[2013-01-02 15:08:36,166][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:08:36,167][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.DummyService
+[2013-01-02 15:08:36,167][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:08:36,167][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:08:36,169][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:08:36,169][INFO][com.test.TestService](stop):24 | Stopped TestService from custom package..
+[2013-01-02 15:08:36,169][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:08:36,170][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):131 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:08:36,170][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:08:36,170][INFO][com.test.TestService](init):12 | Initialized TestService from custom package..
+[2013-01-02 15:08:36,171][INFO][com.test.TestService](start):18 | Started TestService from custom package..
+[2013-01-02 15:08:36,171][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:08:36,171][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:09:18,808][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:09:18,813][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:09:18,813][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:09:18,816][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:09:18,816][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:09:18,816][INFO][com.test.TestService](init):12 | Initialized TestService from custom package..
+[2013-01-02 15:09:18,817][INFO][com.test.TestService](start):18 | Started TestService from custom package..
+[2013-01-02 15:09:18,818][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:09:18,818][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.DummyService
+[2013-01-02 15:09:18,818][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:09:18,818][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:09:18,819][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.DummyService
+[2013-01-02 15:09:18,819][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:09:18,819][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.DummyService
+[2013-01-02 15:09:18,820][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:09:18,820][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:09:18,822][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:09:18,822][INFO][com.test.TestService](stop):24 | Stopped TestService from custom package..
+[2013-01-02 15:09:18,822][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:09:18,822][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):131 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:09:18,823][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:09:18,823][INFO][com.test.TestService](init):12 | Initialized TestService from custom package..
+[2013-01-02 15:09:18,823][INFO][com.test.TestService](start):18 | Started TestService from custom package..
+[2013-01-02 15:09:18,823][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:09:18,823][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:10:36,973][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:10:36,978][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:10:36,978][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:10:36,980][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:10:36,981][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:10:36,981][INFO][com.test.TestService](init):12 | Initialized TestService from custom package..
+[2013-01-02 15:10:36,981][INFO][com.test.TestService](start):18 | Started TestService from custom package..
+[2013-01-02 15:10:36,982][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:10:36,983][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.DummyService
+[2013-01-02 15:10:36,983][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:10:36,983][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:10:36,983][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.DummyService
+[2013-01-02 15:10:36,983][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:10:36,984][ERROR][com.test.TestService](customCall):33 | Method invoked before the service is started...
+[2013-01-02 15:10:36,984][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.DummyService
+[2013-01-02 15:10:36,984][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:10:36,988][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:10:36,988][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:10:36,988][INFO][com.test.TestService](stop):24 | Stopped TestService from custom package..
+[2013-01-02 15:10:36,988][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:10:36,989][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):131 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:13:38,729][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:13:38,734][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:13:38,735][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:13:38,738][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:13:52,374][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:13:52,374][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:13:52,375][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:13:52,377][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:13:52,377][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.DummyService
+[2013-01-02 15:13:52,378][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:13:52,406][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:13:52,406][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.DummyService
+[2013-01-02 15:13:52,407][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:14:01,825][ERROR][com.test.TestService](customCall):32 | Method invoked before the service is started...
+[2013-01-02 15:14:01,825][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.DummyService
+[2013-01-02 15:14:01,825][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:14:01,828][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:14:01,829][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:14:01,829][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:14:01,829][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:14:01,830][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:21:46,727][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:21:46,732][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:21:46,732][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:21:46,735][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:21:46,735][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:21:46,736][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:21:46,736][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:21:46,737][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:21:46,737][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.DummyService
+[2013-01-02 15:21:46,738][INFO][com.test.DummyService](init):11 | Initialized DummyService from custom package..
+[2013-01-02 15:21:46,738][INFO][com.test.DummyService](start):17 | Started DummyService from custom package..
+[2013-01-02 15:21:46,738][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.DummyService
+[2013-01-02 15:21:46,738][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:21:46,739][ERROR][com.test.TestService](customCall):32 | Method invoked before the service is started...
+[2013-01-02 15:21:46,739][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.DummyService
+[2013-01-02 15:21:46,739][INFO][com.test.DummyService](stop):23 | Stopped DummyService from custom package..
+[2013-01-02 15:21:46,742][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.DummyService
+[2013-01-02 15:21:46,742][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:21:46,743][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:21:46,743][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:21:46,743][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:22:29,455][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:22:29,459][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:22:29,459][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:22:29,462][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:22:29,462][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:22:29,463][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:22:29,464][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:22:29,464][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:22:29,464][ERROR][com.test.TestService](customCall):32 | Method invoked before the service is started...
+[2013-01-02 15:22:29,464][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:22:29,465][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:22:29,465][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:22:29,465][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:23:32,562][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:23:32,568][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:23:32,568][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:23:36,989][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:23:38,476][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:23:59,332][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:24:38,498][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:24:38,499][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:24:41,258][ERROR][com.test.TestService](customCall):32 | Method invoked before the service is started...
+[2013-01-02 15:24:41,259][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:24:41,259][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:24:41,259][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:24:41,260][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:25:15,027][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:25:15,031][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:25:15,031][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:25:15,033][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:25:15,034][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:25:15,034][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:25:15,035][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:25:15,035][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:25:15,036][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:25:15,036][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:25:15,036][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:25:15,037][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:29:11,042][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:29:11,046][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:29:11,046][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:29:11,049][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:29:11,049][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:29:11,049][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:29:11,050][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:29:11,050][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:29:11,051][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:29:11,051][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:29:11,051][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:29:11,051][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 15:30:40,943][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:30:40,946][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 15:30:40,947][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 15:30:40,949][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 15:30:40,949][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 15:30:40,950][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 15:30:40,950][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 15:30:40,951][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 15:30:40,951][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 15:30:40,951][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 15:30:40,952][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 15:30:40,952][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
+[2013-01-02 16:45:10,129][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 16:45:10,133][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service DummyService is loaded in to the Directory
+[2013-01-02 16:45:10,134][INFO][com.kousikraj.bootstrap.lookups.ServiceDirectory](loadService):57 | Service TestService is loaded in to the Directory
+[2013-01-02 16:45:10,136][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):84 | Loading com.test.TestService
+[2013-01-02 16:45:10,137][INFO][com.test.TestService](init):11 | Initialized TestService from custom package..
+[2013-01-02 16:45:10,137][INFO][com.test.TestService](start):17 | Started TestService from custom package..
+[2013-01-02 16:45:10,138][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):98 | Loaded com.test.TestService
+[2013-01-02 16:45:10,138][INFO][com.kousikraj.bootstrap.core.Bootstrap](nextState):108 | Loaded all services for NORMAL mode
+[2013-01-02 16:45:10,139][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):118 | Shutting down service com.test.TestService
+[2013-01-02 16:45:10,139][INFO][com.test.TestService](stop):23 | Stopped TestService from custom package..
+[2013-01-02 16:45:10,139][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):121 | Shutdown compelted for service com.test.TestService
+[2013-01-02 16:45:10,139][INFO][com.kousikraj.bootstrap.core.Bootstrap](shutDown):132 | Completed shutting down all services for NORMAL mode
