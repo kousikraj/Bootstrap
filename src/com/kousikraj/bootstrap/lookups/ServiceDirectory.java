@@ -27,7 +27,7 @@ public class ServiceDirectory {
 	/**
 	 * The method to get the Singleton object of {@link ServiceDirectory}
 	 * 
-	 * @return
+	 * @return {@link ServiceDirectory}
 	 */
 	public static ServiceDirectory getInstance() {
 		return _instance;
@@ -76,7 +76,7 @@ public class ServiceDirectory {
 	 * This method is to clear / reset all the Services loaded in the map
 	 * (Directory) so far..
 	 * 
-	 * @return
+	 * @return boolean
 	 */
 	public boolean removeAllServices() {
 		this.mapOfService.clear();

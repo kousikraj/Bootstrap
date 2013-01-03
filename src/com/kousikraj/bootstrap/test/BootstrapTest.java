@@ -24,7 +24,6 @@ public class BootstrapTest {
 		// Uncomment this line if you want to push the logs to a file..
 		// PropertyConfigurator.configure(PropertiesFileLoader.loadPropertiesFromFile(ServerConfigurations.LOG_PROPERTIES));
 		
-		
 		System.out.println("1. Test Case\n------------------------------------------------------------");
 		new BootstrapTest().normalTestCase();
 		

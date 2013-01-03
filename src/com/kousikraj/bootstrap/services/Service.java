@@ -50,13 +50,13 @@ public interface Service {
 
 	/**
 	 * To get the {@link ServerState} of the Service
-	 * @return
+	 * @return {@link ServiceState}
 	 */
 	ServiceState getState();
 
 	/**
 	 * To get the {@link ServiceType} of the Service
-	 * @return
+	 * @return {@link ServiceType}
 	 */
 	ServiceType getType();
 

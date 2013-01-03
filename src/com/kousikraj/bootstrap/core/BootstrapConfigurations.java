@@ -72,7 +72,7 @@ public class BootstrapConfigurations {
 	 * {@link ServerState} parameter.
 	 * 
 	 * @param serverStates
-	 * @return {@link Service[]}
+	 * @return {@link Service}[]
 	 */
 	public static Service[] getService(ServerState serverStates) {
 		if (mapOfServices.containsKey(serverStates)) {

@@ -1,0 +1,138 @@
+<class-diagram version="1.0.11" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="false" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.core.Bootstrap" project="Bootstrap" 
+    file="/Bootstrap/src/com/kousikraj/bootstrap/core/Bootstrap.java" binary="false">    
+    <position height="180" width="259" x="511" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.core.BootstrapConfigurations" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/core/BootstrapConfigurations.java" binary="false">    
+    <position height="146" width="213" x="275" y="511"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.configurations.ServerConfigurations" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/configurations/ServerConfigurations.java" 
+    binary="false">    
+    <position height="112" width="216" x="41" y="697"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="4" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.configurations.ServerState" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/configurations/ServerState.java" binary="false">    
+    <position height="146" width="219" x="530" y="697"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.lookups.ServiceDirectory" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/lookups/ServiceDirectory.java" binary="false">    
+    <position height="146" width="172" x="318" y="697"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.lookups.ServiceLookup" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/lookups/ServiceLookup.java" binary="false">    
+    <position height="95" width="152" x="318" y="883"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.services.AbstractService" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/services/AbstractService.java" binary="false">    
+    <position height="214" width="291" x="556" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" corner="BOTTOM_RIGHT" language="java" name="com.kousikraj.bootstrap.services.Service" 
+    project="Bootstrap" file="/Bootstrap/src/com/kousikraj/bootstrap/services/Service.java" binary="false">    
+    <position height="180" width="191" x="491" y="1018"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <realization id="9">    
+    <bendpoint x="800" y="291"/>    
+    <bendpoint x="800" y="511"/>    
+    <bendpoint x="800" y="697"/>    
+    <bendpoint x="800" y="883"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="11">    
+    <bendpoint x="539" y="511"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="12">    
+    <bendpoint x="287" y="697"/>    
+    <bendpoint x="287" y="883"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="13">    
+    <bendpoint x="500" y="883"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="779" y="883"/>    
+    <bendpoint x="779" y="697"/>    
+    <bendpoint x="779" y="511"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="20">    
+    <bendpoint x="518" y="511"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="false"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
